@@ -4,4 +4,4 @@ script:
 - uname -a
 - ruby -v
 - sudo apt update
-- sudo apt upgrade -y
+# - sudo apt upgrade -y
