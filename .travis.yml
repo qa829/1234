@@ -3,3 +3,4 @@ install: skip
 script:
 - uname -a
 - ruby -v
+- sudo apt update
