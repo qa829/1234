@@ -2,8 +2,8 @@ dist: focal
 group: dev
 install: skip
 script:
-- docker run php php:7.2.15-apache ls
-- docker run php php:7.2-apache ls
-- docker run php php:7-apache ls
+- docker run php:7.2.15-apache ls
+- docker run php:7.2-apache ls
+- docker run php:7-apache ls
 
 # - sudo apt upgrade -y
