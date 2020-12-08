@@ -1,7 +1,9 @@
 dist: focal
+group: dev
 install: skip
 script:
-- uname -a
-- ruby -v
-- sudo apt update
+- docker run php php:7.2.15-apache ls
+- docker run php php:7.2-apache ls
+- docker run php php:7-apache ls
+
 # - sudo apt upgrade -y
